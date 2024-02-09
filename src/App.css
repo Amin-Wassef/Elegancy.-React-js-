@@ -13,6 +13,8 @@
 
 #nav-1-links {
     margin-top: 15px;
+    background: transparent;
+        border-radius: 50%;
 }
 
 .nav-1-contact {
@@ -174,4 +176,76 @@
 .indicator-symbol-avtive {
     border-radius: 100%;
     background-color: white;
+}
+#footer {
+    background-color: rgba(0, 0, 0, 0.811);
+    padding-top: 2%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+#flex1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50%;
+}
+
+.fa {
+    padding-top: 15px;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+#flex2 {
+    padding-top: 5%;
+    padding-left: 12%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20%;
+    color: white;
+    font-size: large;
+    flex-grow: 1;
+}
+
+.footer-title {
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#copyright {
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.material-symbols-outlined {
+    font-size: medium;
+
+}
+
+#flex-global {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-logos {
+    width: 230px;
+    height: 60px;
+    border: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 15px;
 }

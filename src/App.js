@@ -8,6 +8,7 @@ import About from "./Components/about";
 import Team from "./Components/team";
 import Staff_bg from "./Components/staff_bg";
 import Map from "./Components/map";
+import Footer from "./Components/footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Team />
       <Staff_bg />
       <Map />
+      <Footer />
     </ChakraProvider>
   );
 }
