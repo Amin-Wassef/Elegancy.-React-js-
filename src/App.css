@@ -80,7 +80,6 @@
 }
 
 #pdt_img {
-    /* border: solid; */
     height: 250px;
     width: 250px;
     transition: transform .3s;
@@ -248,4 +247,22 @@
     border-width: 2px;
     border-color: white;
     border-radius: 15px;
+}
+.location-titles {
+    font-weight: bold;
+}
+
+#E-S {
+    font-size: xx-large;
+}
+
+#map {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 0.4s;
+    border-radius: 2%;
+}
+
+#map:hover {
+    transform: scale(1.05);
+    transition-duration: 0.4s;
 }

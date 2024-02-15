@@ -25,6 +25,12 @@ const links = [
     id: "team_box",
     key: 4,
   },
+  {
+    li: "Location",
+    href: "#location_box",
+    id: "location_box",
+    key: 4,
+  },
 ];
 
 const handleClick = (anchor) => (e) => {

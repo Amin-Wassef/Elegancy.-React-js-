@@ -1,4 +1,4 @@
-import { Avatar, Center, HStack, Spacer, VStack } from "@chakra-ui/react";
+import { Avatar, Center, VStack } from "@chakra-ui/react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Caroline from "../Assets/Caroline.jpg";
@@ -7,7 +7,6 @@ import Jane from "../Assets/Jane.jpg";
 import Georgina from "../Assets/Georgina.jpeg";
 import Michael from "../Assets/Michael.jpg";
 import Raoul from "../Assets/Raoul.jpg";
-import { useEffect, useState } from "react";
 
 const staff = [
   {
@@ -54,7 +53,7 @@ const avatar = staff.map(({ face, member_name, title, key }) => {
       key={key}
       paddingTop={"50px"}
       backgroundColor={"blackAlpha.600"}
-      height={"70vh"}
+      minHeight={"70vh"}
       minWidth={"100%"}
     >
       <Center>

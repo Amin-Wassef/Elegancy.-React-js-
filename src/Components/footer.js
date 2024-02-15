@@ -18,27 +18,27 @@ const Footer = () => {
         </Text>
         <div style={{ display: "flex", flexWrap: "wrap" }}>
           <a
-            href="#"
+            href="https://twitter.com"
             class="fa fa-twitter"
             style={{ background: "#55ACEE", color: "white" }}
           ></a>
           <a
-            href="#"
+            href="https://github.com"
             class="fa fa-github"
             style={{ background: "white", color: "#1F2328" }}
           ></a>
           <a
-            href="#"
+            href="https://linkedin.com"
             class="fa fa-linkedin"
             style={{ background: "#007bb5", color: "white" }}
           ></a>
           <a
-            href="#"
+            href="http://instagram.com"
             class="fa fa-instagram"
             style={{ background: "#125688", color: "white" }}
           ></a>
           <a
-            href="#"
+            href="http://facebook.com"
             class="fa fa-facebook"
             style={{ background: "#3B5998", color: "white" }}
           ></a>
