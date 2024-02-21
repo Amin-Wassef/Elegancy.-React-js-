@@ -1,4 +1,3 @@
-import { transform } from "framer-motion";
 import React, { useEffect, useState } from "react";
 
 const ScrollOverlay = ({ backgroundImage, Y, children, height, scroll }) => {

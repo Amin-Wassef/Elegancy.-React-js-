@@ -2,7 +2,7 @@ import { Box } from "@chakra-ui/react";
 import SectionTitle from "./section_titles";
 import SectioSubtitle from "./section_subtitles";
 import SectionDescription from "./section_descriptions";
-import StoreStatus from "./Store-Status";
+import StoreStatus from "./store_status";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCalendarDays,
@@ -33,7 +33,7 @@ const Map = () => {
         >
           <div>
             <p className="location-titles" id="E-S">
-              Ele@ncy Store
+              Eleg@ncy Store
             </p>
             <br />
             <p>
@@ -112,14 +112,3 @@ const Map = () => {
 };
 
 export default Map;
-
-// let date = new Date();
-// let options = { timeZone: "Egypt" /*, weekday: "long"*/ };
-// // let egyptTime = date.toLocaleString("en-US", options);
-
-// let d = date.getDay();
-// let h = date.getHours(options);
-// let m = date.getMinutes();
-// let s = date.getSeconds();
-// let month = date.getMonth() + 1;
-// let egyptTime = h + ":" + m + ":" + s;

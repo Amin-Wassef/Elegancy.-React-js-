@@ -92,7 +92,7 @@ const Categories = () => {
     },
   };
   return (
-    <Box id="portfolio_box" bgColor={"white"}>
+    <Box id="portfolio_box" height={"100vh"} bgColor={"white"}>
       <Box transform={"translateY(100px)"}>
         <SectionTitle width={"110px"}>Portfolio</SectionTitle>
         <SectioSubtitle>
