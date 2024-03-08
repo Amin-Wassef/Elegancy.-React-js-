@@ -69,7 +69,7 @@ const Nav2 = () => {
           id="search"
         />
         <Spacer />
-        <HStack spacing={8} marginRight={5}>
+        <HStack id="nav2-links" spacing={8} marginRight={5}>
           {nav2_links}
           <Avatar width={"35x"} height={"35px"} boxShadow={"md"} />
         </HStack>

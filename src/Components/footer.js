@@ -1,4 +1,4 @@
-import { VStack, Text } from "@chakra-ui/react";
+import { Text } from "@chakra-ui/react";
 import GooglePlay from "../Assets/GooglePlay.png";
 import AppStore from "../Assets/AppStore.png";
 

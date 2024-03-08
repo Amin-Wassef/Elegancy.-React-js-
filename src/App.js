@@ -9,7 +9,6 @@ import Team from "./Components/team";
 import Staff_bg from "./Components/staff_bg";
 import Map from "./Components/map";
 import Footer from "./Components/footer";
-// import AboutTest from "./Components/about-test";
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
       <Nav2 />
       <Welcome_bg />
       <Categories />
-      {/* <AboutTest /> */}
       <About />
       <Team />
       <Staff_bg />

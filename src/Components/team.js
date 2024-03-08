@@ -80,7 +80,19 @@ const Team = () => {
           nullam tortor quis elit lacus
         </SectionDescription>
         <Center width={"100%"}>
-          <HStack spacing={"105px"}>{member}</HStack>
+          <div
+            style={{
+              display: "flex",
+              flexWrap: "wrap",
+              gap: "7%",
+              rowGap: "35px",
+              width: "100%",
+              justifyContent: "center",
+            }}
+            spacing={"105px"}
+          >
+            {member}
+          </div>
         </Center>
       </Box>
     </Box>

@@ -29,6 +29,7 @@ const Map = () => {
             flexWrap: "wrap",
             justifyContent: "center",
             gap: "20%",
+            rowGap: "20px",
           }}
         >
           <div>
