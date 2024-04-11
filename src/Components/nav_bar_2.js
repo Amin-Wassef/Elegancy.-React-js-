@@ -55,7 +55,7 @@ const nav2_links = links.map(({ li, href, id, key }) => {
 
 const Nav2 = () => {
   return (
-    <nav id="nav2" className="nav2_shadow">
+    <nav id="nav2">
       <Flex style={{ padding: "15px" }}>
         <Text id="logo" fontSize={"4xl"} as={"b"}>
           Eleg<span style={{ color: "#1E90FF" }}>@</span>ncy

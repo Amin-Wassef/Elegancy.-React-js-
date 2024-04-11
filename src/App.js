@@ -1,5 +1,7 @@
 import "./App.css";
+
 import { ChakraProvider } from "@chakra-ui/react";
+
 import Nav2 from "./Components/nav_bar_2";
 import Nav1 from "./Components/nav_bar_1";
 import Welcome_bg from "./Components/welcome_bg";
@@ -10,7 +12,7 @@ import Staff_bg from "./Components/staff_bg";
 import Map from "./Components/map";
 import Footer from "./Components/footer";
 
-function App() {
+const App = () => {
   return (
     <ChakraProvider>
       <Nav1 />
@@ -24,6 +26,6 @@ function App() {
       <Footer />
     </ChakraProvider>
   );
-}
+};
 
 export default App;

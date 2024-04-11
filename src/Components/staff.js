@@ -103,7 +103,7 @@ const Staff = () => {
       arrows={false}
       showDots={true}
       autoPlay={true}
-      autoPlaySpeed={7000}
+      autoPlaySpeed={4000}
     >
       {avatar}
     </Carousel>
